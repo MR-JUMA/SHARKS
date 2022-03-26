@@ -12,4 +12,21 @@ contract epesa {
 
 }
 
+contract epesa {
+...
+  function withdraw() public {
+    require(
+      msg.sender == wakala,
+      'Withdraw money.'
+    );
+  
+  require(
+    block.timestamp > dueDate,
+    'Not reached due date.'
+  );
+  msg.sender.transfer(address(this).balance);
+  }
+...
+}
+
 
