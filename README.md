@@ -4,8 +4,8 @@ The mobile money companies included are; M-Pesa, Tigo-pesa, Airtel-money and Hal
 The owners of such businesses will be able to view all the records from their agents in one place. 
 The application also makes use of smart contracts that will allow the owners to pay their agents from different places automatically once they reach certain milestones on monthly basis.
 
-The stack and languages used for deployment of ePesa include:
-PERN
+The stack and languages used for deployment of ePesa are 
+PERN and
 Solidity for smart contract
 
 
