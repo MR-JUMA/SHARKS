@@ -8,4 +8,4 @@ Tech Skills: Reactjs, JavaScript
 
 BERNADETTE MASSAWE
 Email: bernadettemassawe@gmail.com
-Tech Skills: Python, machine learning
+Tech Skills: Python, machine learning, exploring blockchain technology
