@@ -5,7 +5,7 @@ The owners of such businesses will be able to view all the records from their ag
 The application also makes use of smart contracts that will allow the owners to pay their agents from different places automatically once they reach certain milestones on monthly basis.
 
 The stack and languages used for deployment of ePesa are 
-PERN and
+PERN, Java for android application and
 Solidity for smart contract
 
 
