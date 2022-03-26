@@ -1,0 +1,118 @@
+.list {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  .listContainer {
+    flex: 6;
+
+    .sales-top{
+      flex: 1;
+      display: flex;
+      gap: 20px;
+      padding: 20px;
+      margin: 20px;
+      
+
+      -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+      box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+      border-radius: 10px;
+
+
+      .display-id{
+        font-size: xx-large;
+      }
+      .sales-amount{
+
+      }
+
+      .saveDeposit {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5px;
+        margin-left: 5px;
+        padding: 2px 5px;
+        border-radius: 5px;
+        color: darkblue;
+        border: 1px dotted rgba(0, 0, 139, 0.596);
+        cursor: pointer;
+        width: 60px;
+        height: 30px;
+
+        &:hover {
+          background-color: lightblue;
+        }
+      }
+
+      .clearDeposit {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5px;
+        margin-left: 5px;
+        padding: 2px 5px;
+        border-radius: 5px;
+        color: darkred;
+        border: 1px dotted rgba(0, 0, 139, 0.596);
+        cursor: pointer;
+        width: 60px;
+        height: 30px;
+
+        &:hover {
+          background-color: lightsalmon;
+        }
+      }
+    }
+
+    .table-container {
+      -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+      box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+      padding: 20px;
+      margin: 20px;
+
+      .tableTitle {
+        font-weight: 500;
+        margin-bottom: 15px;
+
+        &.tigo {
+          color: blue;
+        }
+
+        &.voda {
+          color: rgb(211, 9, 9);
+        }
+
+        &.halo {
+          color: orange;
+        }
+
+        &.air {
+          color: green;
+        }
+      }
+    }
+
+    .cellAction {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+
+      .editButton {
+        padding: 2px 5px;
+        border-radius: 5px;
+        color: darkblue;
+        border: 1px dotted rgba(0, 0, 139, 0.596);
+        cursor: pointer;
+      }
+      
+      .deleteButton {
+        padding: 2px 5px;
+        border-radius: 5px;
+        color: crimson;
+        border: 1px dotted rgba(220, 20, 60, 0.6);
+        cursor: pointer;
+      }
+    }
+    
+  }
+}
